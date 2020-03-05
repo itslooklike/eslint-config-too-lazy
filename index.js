@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
-    curly: 'all',
-    quotes: 'backtick',
-    'arrow-parens': 'always',
+    curly: [`error`, `all`],
+    quotes: [`error`, `backtick`],
+    'arrow-parens': [`error`, `always`],
   },
 }
